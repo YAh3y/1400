@@ -1,0 +1,27 @@
+CACHE MANIFEST
+# yahya-ps4-afterglow-offline-v2
+
+CACHE:
+../../index.html
+../../style.css
+afterglow.js
+cache.html
+core.js
+fb_kbase.js
+fb_kevent.js
+fb_tables.js
+hen.bin
+index.html
+int64.js
+jb.html
+jb.js
+mem.js
+payload.bin
+ps4_offsets.js
+rpc_worker.js
+welcome-goldhen.jpg
+patches/1352.bin
+patches/1400.bin
+
+NETWORK:
+FALLBACK:
