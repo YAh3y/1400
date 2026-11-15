@@ -1,0 +1,8 @@
+<!DOCTYPE html><html manifest="css.manifest"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>مكتب يحيى للإلكترونيات | Offline Cache</title><link rel="stylesheet" href="style.css"></head><body><script>
+history.replaceState(null,null,'index.html');
+function DLProgress(e){var pc=e.total?Math.round(e.loaded/e.total*100):0;window.msgs.innerHTML="تثبيت ملفات الأوفلاين: "+pc+"%";}
+function done(){window.msgs.innerHTML="تم تثبيت الأوفلاين بنجاح ✔<br>يمكنك إطفاء الإنترنت وفتح الصفحة من جديد.";}
+window.applicationCache.addEventListener("progress",DLProgress,false);
+window.applicationCache.oncached=done; window.applicationCache.onupdateready=done;
+window.applicationCache.onerror=function(){window.msgs.innerHTML="تعذر تثبيت الكاش. امسح بيانات المتصفح وافتح الصفحة بالإنترنت مرة واحدة.";};
+</script><main class="shell" dir="rtl"><div class="brand">مكتب يحيى للإلكترونيات</div><div class="sub">تجهيز وضع Offline</div><section class="panel"><h1 id="msgs">بدء تثبيت ملفات الأوفلاين...</h1><div class="badge"><span class="pulse"></span> لا تغلق الصفحة أثناء التثبيت</div></section><div class="footer">مكتب يحيى للإلكترونيات — 07732954749 | بعد اكتمال التثبيت جرّب فتح الصفحة بدون إنترنت</div></main></body></html>
